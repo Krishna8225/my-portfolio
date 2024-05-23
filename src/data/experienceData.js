@@ -17,6 +17,13 @@ export const experienceData = [
         id: 3,
         company: 'Golden Eagle IT Technologies Pvt. Ltd.',
         jobtitle: 'Fronted Devloper',
+        startYear: '2022',
+        endYear: '2024'
+    },
+      {
+        id: 4,
+        company: 'cdn software solutions pvt. ltd.',
+        jobtitle: 'Mern Stack',
         startYear: '2024',
         endYear: 'Present'
     },
