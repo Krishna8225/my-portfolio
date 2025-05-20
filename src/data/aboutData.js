@@ -1,5 +1,5 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Krishna. I'm a Full Stack  developer",
+    description1:"I’m a full-stack JavaScript developer passionate about building performant, scalable applications that delight users. On the front end, I leverage React.js, React Native, and modern HTML/CSS (with Bootstrap) to craft intuitive, responsive interfaces. I manage application state gracefully using Redux and React Query, ensuring smooth user experiences even at scale. Behind the scenes, I power APIs and server logic with Node.js, backed by both relational (MySQL) and NoSQL (MongoDB) databases to fit every data need. I deploy and maintain my services on AWS EC2, following best practices for reliability and security. Version control with Git is second nature to me, and I thrive in Agile teams—breaking work into user stories, iterating quickly, and continuously improving through sprint retrospectives. Whether you need a feature-rich web dashboard, a mobile app prototype, or a robust back-end service, I bring the full-stack expertise, attention to detail, and collaborative mindset to make it happen. Let’s build something great together!z",
     image: 2
 }
