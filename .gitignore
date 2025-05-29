@@ -1,0 +1,34 @@
+# dependencies
+/node_modules
+
+# build output
+/build
+/dist
+
+# environment variables
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# optional: Mac system files
+.AppleDouble
+.LSOverride
+
+# optional: next.js or similar setups
+.next
+out
