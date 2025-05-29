@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Briefcase, Code2, Mail, Github, Linkedin, User } from "lucide-react";
+import profile from "../assets/profile.png";
 
 const education = [
   {
@@ -68,7 +69,13 @@ export default function Portfolio() {
           animate={{ scale: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          <User className="text-cyan-400" size={128} />
+          <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-500 bg-gray-850 shadow-[0_4px_30px_rgba(2,132,199,0.6)]">
+            <img
+              src={profile}
+              alt="Krishna Makwana"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </motion.div>
         <div>
           <h1 className="text-5xl font-extrabold mb-4 text-[#F0F4FF] drop-shadow-lg">
