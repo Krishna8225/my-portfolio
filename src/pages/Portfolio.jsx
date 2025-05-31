@@ -78,9 +78,11 @@ export default function Portfolio() {
           </div>
         </motion.div>
         <div>
-          <h1 className="text-5xl font-extrabold mb-4 text-[#F0F4FF] drop-shadow-lg">
+          <h1 className="text-5xl font-extrabold mb-4 text-[#F0F4FF] drop-shadow-lg flex items-center gap-2">
             Krishna Makwana
+            <span className="text-red-500 text-2xl leading-none">▲</span>
           </h1>
+
           <p className="text-2xl text-cyan-400 max-w-xl leading-relaxed tracking-wide">
             💻 MERN Stack Developer & React Native enthusiast building
             beautiful, scalable web and mobile apps.
