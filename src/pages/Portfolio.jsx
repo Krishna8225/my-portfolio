@@ -6,28 +6,29 @@ import profile from "../assets/profile.png";
 const education = [
   {
     degree: "BE Computer Science & Engineering",
-    institute: "SIRT - INDORE",
+    institute: "Rajiv Gandhi Proudyogiki Vishwavidyalaya (R.G.P.V), Bhopal",
     duration: "2016 - 2020",
   },
 ];
 
+
 const experience = [
   {
-    role: "Senior Software Developer",
+    role: "Software Engineer",
     company: "CDN Solutions Group",
     duration: "Mar 2024 - Present",
     location: "Indore, Madhya Pradesh, India",
   },
   {
-    role: "Sr. Software Developer",
+    role: "Sr. React.js Developer",
     company: "Golden Eagle IT Technologies Pvt Ltd",
     duration: "Aug 2022 - Jan 2024",
     location: "Indore, Madhya Pradesh, India",
   },
   {
-    role: "Senior Software Developer",
+    role: "Software Developer",
     company: "TheRapidHire Pvt Ltd",
-    duration: "Mar 2021 - Aug 2022",
+    duration: "Mar 2021 - June 2022",
     location: "Indore, Madhya Pradesh, India",
   },
   {
