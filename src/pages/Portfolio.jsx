@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Briefcase, Code2, Mail, Github, Linkedin, User } from "lucide-react";
 import profile from "../assets/profile.png";
+import krishna_profile from "../assets/krishna_profile.png";
 
 const education = [
   {
@@ -10,7 +11,6 @@ const education = [
     duration: "2016 - 2020",
   },
 ];
-
 
 const experience = [
   {
@@ -65,19 +65,18 @@ export default function Portfolio() {
         className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 mb-20"
       >
         <motion.div
-          className="w-48 h-48 rounded-full border-4 border-cyan-500 flex items-center justify-center bg-gray-850 shadow-[0_4px_30px_rgba(2,132,199,0.6)]"
+          className="w-48 h-48 rounded-full border-4 border-cyan-500 bg-gray-850 shadow-[0_4px_30px_rgba(2,132,199,0.6)] overflow-hidden"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-500 bg-gray-850 shadow-[0_4px_30px_rgba(2,132,199,0.6)]">
-            <img
-              src={profile}
-              alt="Krishna Makwana"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <img
+            src={krishna_profile}
+            alt="Krishna Makwana"
+            className="w-full h-full object-cover object-top"
+          />
         </motion.div>
+
         <div>
           <h1 className="text-5xl font-extrabold mb-4 text-[#F0F4FF] drop-shadow-lg flex items-center gap-2">
             Krishna Makwana
