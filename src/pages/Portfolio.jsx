@@ -14,9 +14,15 @@ const education = [
 
 const experience = [
   {
+    role: "Package App Development Team Lead",
+    company: "Accenture",
+    duration: "Sep 2025 - Present",
+    location: "Pune, Maharashtra, India"
+  },  
+  {
     role: "Software Engineer",
     company: "CDN Solutions Group",
-    duration: "Mar 2024 - Present",
+    duration: "Mar 2024 - June 2025",
     location: "Indore, Madhya Pradesh, India",
   },
   {
