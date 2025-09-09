@@ -17,7 +17,7 @@ const experience = [
     role: "Package App Development Team Lead",
     company: "Accenture",
     duration: "Sep 2025 - Present",
-    location: "Pune, Maharashtra, India"
+    location: "Pune, Maharashtra, India",
   },  
   {
     role: "Software Engineer",
